@@ -1,0 +1,88 @@
+[Root]
+Most Recent Package=Sudoku - The Hot Puzzle Craze
+
+
+[Package|Sudoku - The Hot Puzzle Craze|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\_Derio\Testing01\Sudoku\5.0\Package
+
+[Package|Sudoku - The Hot Puzzle Craze|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Sudoku - The Hot Puzzle Craze|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Sudoku - The Hot Puzzle Craze|Files Found]
+
+[Package|Sudoku - The Hot Puzzle Craze|Files Released]
+
+[Package|Sudoku - The Hot Puzzle Craze|Missing Dependency Information]
+
+[Package|Sudoku - The Hot Puzzle Craze|Out-of-Date Dependency Information]
+
+[Package|Sudoku - The Hot Puzzle Craze|Files Added]
+
+[Package|Sudoku - The Hot Puzzle Craze|Files Removed]
+
+[Package|Sudoku - The Hot Puzzle Craze|Files In Project]
+D:\_Derio\Testing01\Sudoku\5.0\Sudoku.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Sudoku - The Hot Puzzle Craze|Configure Registry Files]
+Applicable=No
+
+[Package|Sudoku - The Hot Puzzle Craze|Configure Remote Servers]
+Applicable=No
+
+[Package|Sudoku - The Hot Puzzle Craze|Install Locations]
+D:\_Derio\Testing01\Sudoku\5.0\Sudoku.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Sudoku - The Hot Puzzle Craze|Configure Shared Files]
+Applicable=Yes
+D:\_Derio\Testing01\Sudoku\5.0\Sudoku.exe=No
+
+[Package|Sudoku - The Hot Puzzle Craze|Distribution]
+Type=single
+Size=
+Title=Sudoku - The Hot Puzzle Craze
+
+[Package|Sudoku - The Hot Puzzle Craze|IconGroups]
+Group0=Sudoku - The Hot Puzzle Craze
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Sudoku - The Hot Puzzle Craze|Sudoku - The Hot Puzzle Craze]
+Icon1=Sudoku.exe
+Title1=Sudoku - The Hot Puzzle Craze
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Sudoku - The Hot Puzzle Craze|Package]
+PackageFolder=D:\_Derio\Testing01\Sudoku\5.0\Package
+ProjectFolder=D:\_Derio\Testing01\Sudoku\5.0
+ServerSideCab=
+File1=D:\_Derio\Testing01\Sudoku\5.0\Package\setup.exe
+File2=D:\_Derio\Testing01\Sudoku\5.0\Package\Setup.Lst
+File3=D:\_Derio\Testing01\Sudoku\5.0\Package\Sudoku.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
